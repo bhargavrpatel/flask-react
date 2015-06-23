@@ -9,6 +9,7 @@
   "author": "Bhargav R. Patel <ziikutv@gmail.com> (http://github.com/bhargavrpatel)",
   "license": "ISC",
   "devDependencies": {
-    "bower": "^1.4.1"
+    "bower": "^1.4.1",
+    "gulp": "^3.9.0"
   }
 }
