@@ -9,10 +9,24 @@
   <body>
     <div class="container">
       <h1>Flask React</h1>
-      <br>
       <div id="content"></div>
     </div>
-    <!-- scripts -->
+
+    <script type="text/jsx">
+
+      var HelloWorld = React.createClass({
+        render: function () {
+          return (
+            <p> Hello, World!</p>
+          );
+        }
+      });
+
+      React.render(
+        React.createElement(HelloWorld, null),
+        document.getElementById('content')
+      );
+    </script>
 
 
 
