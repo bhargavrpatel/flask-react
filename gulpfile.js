@@ -11,7 +11,7 @@ gulp.task('clean', function () {
 gulp.task('transform', function () {
   return gulp.src('./project/static/js/src/main.js')
     .pipe(browserify({transform: ['reactify']}))
-    .pipe(gulp.dest('./project/static/js'))
+    .pipe(gulp.dest('./project/static/js/dist/'))
     .pipe(size());
 });
 
