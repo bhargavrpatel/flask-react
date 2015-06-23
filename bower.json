@@ -1,0 +1,15 @@
+{
+  "name": "reactive-flask",
+  "version": "0.0.0",
+  "authors": [
+    "Bhargav Patel <ziikutv@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
